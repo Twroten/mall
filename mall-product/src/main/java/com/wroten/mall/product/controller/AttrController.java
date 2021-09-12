@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,6 +26,7 @@ import com.wroten.common.utils.R;
  * @email xiohu1125@gmail.com
  * @date 2021-09-04 16:52:07
  */
+@Slf4j
 @RestController
 @RequestMapping("product/attr")
 public class AttrController {
