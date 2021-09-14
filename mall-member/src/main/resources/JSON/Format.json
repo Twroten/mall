@@ -1,0 +1,50 @@
+{
+  "memberCoupons": [
+    {
+      "id": null,
+      "couponType": null,
+      "couponImg": null,
+      "couponName": "满十减十",
+      "num": null,
+      "amount": null,
+      "perLimit": null,
+      "minPoint": null,
+      "startTime": null,
+      "endTime": null,
+      "useType": null,
+      "note": null,
+      "publishCount": null,
+      "useCount": null,
+      "receiveCount": null,
+      "enableStartTime": null,
+      "enableEndTime": null,
+      "code": null,
+      "memberLevel": null,
+      "publish": null
+    }
+  ],
+  "code": 0,
+  "member": {
+    "id": null,
+    "levelId": null,
+    "username": null,
+    "password": null,
+    "nickname": "张三",
+    "mobile": null,
+    "email": null,
+    "header": null,
+    "gender": null,
+    "birth": null,
+    "city": null,
+    "job": null,
+    "sign": null,
+    "sourceType": null,
+    "integration": null,
+    "growth": null,
+    "status": null,
+    "createTime": null,
+    "socialUid": null,
+    "accessToken": null,
+    "expiresIn": null
+  }
+}
