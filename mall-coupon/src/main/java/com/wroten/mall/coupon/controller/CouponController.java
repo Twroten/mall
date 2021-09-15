@@ -5,6 +5,7 @@ import com.wroten.common.utils.R;
 import com.wroten.mall.coupon.entity.CouponEntity;
 import com.wroten.mall.coupon.service.CouponService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -23,6 +24,14 @@ import java.util.Map;
 public class CouponController {
     @Autowired
     private CouponService couponService;
+
+    @Value("${config.info}")
+    private String configInfo;
+
+    @RequestMapping("/configInfo")
+    public String getConfigInfo(){
+        return configInfo;
+    }
 
     @RequestMapping("/member/list")
     public R memberCoupons() {

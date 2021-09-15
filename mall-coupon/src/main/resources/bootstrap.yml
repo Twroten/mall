@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: mall-coupon-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.106.210.155:8848
+        namespace: 374a2818-e54c-49e9-86c7-d628d4839547
+        ext-config: # 加载多配置集
+          - data-id: datasource.yml
+            group: coupon
+            refresh: true
+          - data-id: mybatis.yml
+            group: coupon
+            refresh: true
+          - data-id: others.yml
+            group: coupon
+            refresh: true
